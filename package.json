@@ -7,7 +7,7 @@
     "start": "node api/index.js"
   },
   "dependencies": {
-    "express": "^4.17.2",
+    "express": "^4.19.2",
     "request": "^2.88.2"
   }
 }

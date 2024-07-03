@@ -24,7 +24,7 @@ function fetchLocationData(ipAddress, callback) {
 
 // Function to fetch current weather based on location using Weather API
 function fetchWeatherData(location, callback) {
-  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=YOUR_API_KEY&q=${location}`;
+  const apiUrl = `https://api.weatherapi.com/v1/current.json?key=06dbcd0db5c5417e95a71359240307&q=${location}`;
 
   request(apiUrl, { json: true }, (err, res, body) => {
     if (err) {
